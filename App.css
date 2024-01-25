@@ -1,0 +1,91 @@
+.app {
+  text-align: center;
+  margin-left: 30%;
+}
+
+.game {
+  display: inline-block;
+  margin-top: 50px;
+}
+.board {
+  text-align: center;
+}
+.board-row {
+  display: flex;
+}
+.board-status {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.status {
+  margin-right: 30px;
+}
+.squares button {
+  border-radius: 0px;
+}
+.square {
+  background: #0fb62a;
+  border: 1px solid rgb(6, 179, 64);
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline:#0fb62a;
+}
+
+.restart-btn {
+  width: 34px;
+  height: 34px;
+}
+.button{
+  background-color: rgb(212, 233, 29);
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.list-button{ 
+  display: flex;
+}
+
+
+.single-player-toggle button{
+  background-color: aqua;
+}
+
+
+.title{
+      display: flex;
+      justify-content: center;
+      /* position: fixed; */
+      top: 5%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+}
+.dimension-selector {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 13%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.board-container{
+  margin-top: 30px;
+}
+
+.text{
+  text-align: center;
+  color: blue;
+}
